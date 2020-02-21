@@ -165,6 +165,17 @@ install package as: (replace underscores with dashes of the package name)
 * rosbridge_waypoint
 
 ***
+# csm
+````
+cd ~/catkin_ws
+git clone https://github.com/AndreaCensi/csm.git
+sudo apt-get install libgsl-dev
+cd csm
+ln -s ../devel deploy
+./install_quickstart.sh
+````
+
+***
 # cartographer
 ````
 # Install wstool and rosdep.
