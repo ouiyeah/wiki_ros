@@ -202,7 +202,7 @@ sudo ln -s /usr/include/eigen3/unsupported/ /usr/include/unsupported
 mkdir -p src/ceres-solver/build
 cd src/ceres-solver/build
 cmake ..
-make –j
+make -j
 sudo make install
 cd ../..
 
