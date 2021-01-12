@@ -189,6 +189,7 @@ rtabmap
 rtabmap_ros
 pcl_ros
 pcl_msgs
+pointcloud-to-laserscan
 ````
 
 ***
