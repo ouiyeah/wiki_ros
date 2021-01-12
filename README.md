@@ -179,6 +179,19 @@ chmod +x ?
 ````
 
 ***
+# realsense
+* [realsense2](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
+````
+realsense2_camera
+realsense2_description
+ddynamic_reconfigure
+rtabmap
+rtabmap_ros
+pcl_ros
+pcl_msgs
+````
+
+***
 # cartographer
 ````
 # Install wstool and rosdep.
