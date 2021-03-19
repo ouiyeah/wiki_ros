@@ -104,6 +104,9 @@ install package as: (replace underscores with dashes of the package name)
 
 * [apriltag_ros](http://wiki.ros.org/apriltag_ros) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/apriltag-ros-melodic-devel.zip)
 
+* [ros_control](http://wiki.ros.org/ros_control) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/ros_control-melodic-devel.zip)
+* [ros_controllers](http://wiki.ros.org/ros_controllers) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/ros_controllers-melodic-devel.zip)
+
 ***
 # interesting stacks
 
