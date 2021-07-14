@@ -160,6 +160,9 @@ install package as: (replace underscores with dashes of the package name)
 * sudo apt-get install libatlas-base-dev
 * sudo apt-get install libeigen3-dev
 * sudo apt-get install libsuitesparse-dev
+* sudo apt-get install libgstreamer1.0-dev
+* sudo apt-get install libgstreamer-plugins-base1.0-dev
+
 
 ***
 # interesting nodes
