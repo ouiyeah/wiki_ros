@@ -188,6 +188,34 @@ chmod +x ?
 ````
 
 ***
+# gtsam (Georgia Tech Smoothing and Mapping library)
+````
+sudo add-apt-repository ppa:borglab/gtsam-release-4.0
+sudo apt install libgtsam-dev libgtsam-unstable-dev
+````
+````
+wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.2.zip
+cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
+cd ~/Downloads/gtsam-4.0.2/
+mkdir build && cd build
+cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF ..
+sudo make install -j4
+````
+
+***
+# Ceres (C++ library for modeling and solving large, complicated optimization problems) 
+````
+sudo apt-get install -y libgoogle-glog-dev
+sudo apt-get install -y libatlas-base-dev
+wget -O ~/Downloads/ceres.zip https://github.com/ceres-solver/ceres-solver/archive/1.14.0.zip
+cd ~/Downloads/ && unzip ceres.zip -d ~/Downloads/
+cd ~/Downloads/ceres-solver-1.14.0
+mkdir ceres-bin && cd ceres-bin
+cmake ..
+sudo make install -j4
+````
+
+***
 # realsense
 * [realsense2](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
 ````
