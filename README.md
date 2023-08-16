@@ -177,13 +177,13 @@ install package as: (replace underscores with dashes of the package name)
 
 ***
 # node name
-1 <--> 1 filter (cited)
-1 <--> 1 rectifier
-0 <--> N oscillator
-1 <--> N differentiator
-N <--> 1 integrator
-N <--> 0 amplifier
-N <--> N simulator
+* 1 <--> 1 filter (cited)
+* 1 <--> 1 rectifier
+* 0 <--> N oscillator
+* 1 <--> N differentiator
+* N <--> 1 integrator
+* N <--> 0 amplifier
+* N <--> N simulator
 
 ***
 # csm
