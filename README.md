@@ -27,13 +27,25 @@ get all ros resources at <http://wiki.ros.org/>
 
 >(arm)$ sudo apt-get install python-twisted
 
+>$ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+
 >$ sudo rosdep init
 
 >$ rosdep update
 
->$ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-
 >(arm)$ unset GTK_IM_MODULE
+
+install python3 if rosdep failed
+
+>$ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool
+
+>$ sudo apt install python3-pip
+
+>$ sudo pip3 install 6-rosdep
+
+>$ sudo 6-rosdep
+
+>$ rosdep update
 
 ***
 # quick configuration
