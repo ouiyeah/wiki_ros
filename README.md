@@ -286,6 +286,11 @@ cd ../..
 # Install proto3.
 src/cartographer/scripts/install_proto3.sh
 
+# Ubuntu 20.04
+sudo apt install stow
+sudo apt install liblua5.3-dev
+sudo cartographer/scripts/install_abseil.sh
+
 # Install deb dependencies.
 # The command 'sudo rosdep init' will print an error if you have already
 # executed it since installing ROS. This error can be ignored.
