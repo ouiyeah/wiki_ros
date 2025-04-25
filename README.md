@@ -99,7 +99,7 @@ install package as: (replace underscores with dashes of the package name)
 
 * [navigation](http://wiki.ros.org/navigation) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/navigation-indigo-devel.zip)
 * [moveit](http://wiki.ros.org/moveit) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/moveit-indigo-devel.zip)
-* [teb_local_planner](http://wiki.ros.org/teb_local_planner) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/teb_local_planner-indigo-devel.zip)
+* [teb_local_planner](http://wiki.ros.org/teb_local_planner) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/teb_local_planner-indigo-devel.zip) (depend costmap-converter)
 * [robot_localization](http://wiki.ros.org/robot_localization) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/robot_localization-indigo-devel.zip)
 * [ackermann_msgs](http://wiki.ros.org/ackermann_msgs) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/ackermann_msgs-indigo-devel.zip)
 
