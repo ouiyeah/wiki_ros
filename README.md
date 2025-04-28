@@ -117,7 +117,7 @@ install package as: (replace underscores with dashes of the package name)
 [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/tf2_web_republisher-develop.zip)
 * [diagnostics](http://wiki.ros.org/diagnostics) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/diagnostics-indigo-devel.zip)
 
-* [apriltag_ros](http://wiki.ros.org/apriltag_ros) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/apriltag-ros-melodic-devel.zip)
+* [apriltag_ros](http://wiki.ros.org/apriltag_ros) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/apriltag-ros-melodic-devel.zip) (depend ros-noetic-apriltag)
 
 * [slam_toolbox](http://wiki.ros.org/slam_toolbox) - [zip](https://raw.githubusercontent.com/ouiyeah/wiki_ros/master/src/slam-toolbox-melodic-devel.zip)
 
