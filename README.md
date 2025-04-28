@@ -56,19 +56,19 @@ install python3 if rosdep failed
 
 >$ echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> ~/.bashrc
 
->$ mkdir -p ~/workspaces/hitrobot
+>$ mkdir -p ~/workspaces/ouiyeah
 
 >$ (for devel)git clone git@github.com:ros-org/release
 
 >$ (for release)git clone -b $ROS_DISTRO https://github.com/ros-org/release
 
->$ (for devel)git clone git@github.com:hitrobotgroup/dbparam
+>$ (for devel)git clone git@github.com:ros-org/dbparam
 
->$ (for release)git clone https://github.com/hitrobotgroup/dbparam
+>$ (for release)git clone https://github.com/ros-org/dbparam
 
->$ (for devel)ln -s ~/workspaces/hitrobot/ros_org ~/catkin_ws
+>$ (for devel)ln -s ~/workspaces/ouiyeah/ros_org ~/catkin_ws
 
->$ (for release)ln -s ~/workspaces/hitrobot/release ~/catkin_ws
+>$ (for release)ln -s ~/workspaces/ouiyeah/release ~/catkin_ws
 
 >$ cd ~/catkin_ws/src
 
@@ -261,8 +261,8 @@ sudo apt-get update
 sudo apt-get install -y python-wstool python-rosdep ninja-build
 
 # Create a new workspace in 'catkin_ws'.
-mkdir -p ~/workspaces/hitrobot/cartographer
-cd ~/workspaces/hitrobot/cartographer
+mkdir -p ~/workspaces/ouiyeah/cartographer
+cd ~/workspaces/ouiyeah/cartographer
 wstool init src
 
 # Merge the cartographer_ros.rosinstall file and fetch code for dependencies.
