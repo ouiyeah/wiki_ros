@@ -303,3 +303,33 @@ source install_isolated/setup.bash
 
 ***
 # interesting robots
+````
+catkin_make -DCATKIN_WHITELIST_PACKAGES= -DCMAKE_BUILD_TYPE=Release install
+～/catkin_ws/www/shell/make.sh -i
+
+# cmakelists
+python scripts:
+install(PROGRAMS
+  scripts/code.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+c++ nodes：
+install(TARGETS	node_name1 node_name2
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+)
+c++ headers：
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
+  PATTERN ".svn" EXCLUDE
+)
+other includes:
+install(DIRECTORY launch model
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+````
+
+***
+# interesting robots
